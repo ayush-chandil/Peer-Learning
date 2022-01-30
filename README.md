@@ -1,8 +1,11 @@
 # Peer Learning Platform
 
+![screencapture-localhost-3000-2022-01-30-18_16_47](https://user-images.githubusercontent.com/74442358/151700247-299c56c2-52e1-43ca-bb6f-1fe9b3d0926f.png)
+
 This is a platform designed as an addition to Google Classroom for students to gain the best out of online education, look at solutions not just from their but also from the perspective of the peers. This is a platform that not only promotes education but also instills moral integrity within its community.
 
 Feel free to contribute!
+
 
 
 ## :rocket: Tech Stack
