@@ -1,0 +1,89 @@
+.Teachers{
+    margin-left: calc(25%);
+    margin-top:52px;    
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1A73E8;
+    width:712px;
+}
+
+#line{
+    width:100%;
+    padding-top:8px;
+}    
+
+#profile{
+    height: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 1px solid #DBDCE0 !important;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+#left-part{
+    display: inline-flex;
+}
+
+#pic{
+    position: absolute;
+    width: 35px;
+    border-radius: 100px;
+    margin-left: 10px !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+#name{
+    margin-left:60px; 
+    margin-top:15px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #353642;
+}
+
+#mail{
+    margin-top: -5px;
+    color:#606368;
+    margin-right: 15px;
+    cursor: pointer;
+}
+    
+#num{
+    margin-left:624px;   
+    margin-top:-20px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    letter-spacing: -0.02em;
+    color: #1A73E8;
+}
+
+.Students{
+    margin-left: calc(25%);
+    margin-top:52px;    
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1A73E8;
+    width:712px;
+}
+
+.btm{
+    width: 100%;
+}

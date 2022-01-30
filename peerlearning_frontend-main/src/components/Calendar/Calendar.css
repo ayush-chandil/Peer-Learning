@@ -1,0 +1,110 @@
+.week_container{
+  margin-top: 90px;
+}
+
+.week_title{
+  text-align: center;
+}
+
+.title_line{
+  padding: 10px;
+}
+
+.top_dates{
+  font-weight: 500;
+}
+
+.arrow{
+  background-color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.main_box{
+  display: flex;
+  border: 1px solid #DBDCE0;
+  min-height: 500px;
+  border-radius: 16px; 
+}
+
+.week_div{
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.week_name{
+  font-weight: 600;
+  color: #959599;
+}
+
+.week_date{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.ver_line{
+  border-left: 1px solid #DBDCE0;
+}
+
+.curr_date{
+  display: inline;
+  padding:8px 12px;
+  border-radius:100%;
+  background-color: #1a73e8;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.curr_week{
+  color: #1a73e8;
+  font-weight: 600;
+  padding: 2px 10px;
+}
+
+.Assig{
+  font-family: 'Montserrat',sans-serif;
+  border:1px solid #959599;
+  background-color: #1a73e8;
+  color: white;
+  text-align: left;
+  border-radius: 5px;
+  min-height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 7px;
+  padding-left: 10px;
+}
+
+#assignment_title{
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+#reviewer_deadline{
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.04em;
+}
+
+.peer_learning_title{
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.04em;
+}
+
+.prev,.next{
+  cursor: pointer;
+}

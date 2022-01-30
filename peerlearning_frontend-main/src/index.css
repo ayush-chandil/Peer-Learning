@@ -1,0 +1,227 @@
+/* Courses Page */
+.main {
+  margin: 50px 0 0 60px;
+}
+
+.head{
+  margin-top: 100px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.head .btn2{
+  font-size: 12px;
+}
+
+.head .btn2 img{
+  width: 20px;
+}
+
+.submain_courseCard {
+  position: relative;
+  width: 256px;
+  height: 250px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(209, 208, 208, 0.5);
+  border-radius: 12px;
+  margin-top: 40px;
+  border: 1px;
+  border-color: rgb(211, 211, 211);
+  border-style: solid;
+  margin: 1.5em;
+  display: inline-flex;
+  cursor: pointer;
+  z-index: 1;
+} 
+
+.classCard__upper {
+  width: 100%;
+  height: 98px;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.name_courseCard {
+  position: relative;
+  padding-top: 12px;
+  padding-left: 12px; 
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  line-height: 26.82px;
+  color: white;
+}
+
+.section_courseCard {
+  padding-left: 12px;
+  padding-top: 34px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  letter-spacing: -0.02em;
+}
+
+.classCard__creatorPhoto {
+  top: 68.5px;
+  position: absolute;
+  width: 25%;
+  right: 16px;
+  border-radius: 100px;
+}
+
+.classCard__creatorName {
+  position: absolute;
+  bottom: 15px;
+  font-size: 16px;
+  padding-left: 2px;
+}
+
+.classCard__middle {
+  height: 190px;
+  color: #000;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.foot{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 1px solid rgb(211, 211, 211);
+  padding-right: 6px;
+}
+
+.btm2{
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 12px;
+  font-weight: 500;
+  color: #606368;
+  line-height: 15px;
+  padding: 7px 10px;
+  border: none;
+  background-color: transparent;
+  letter-spacing: -0.02em;
+}
+
+.btm2 img{
+  width: 15px;
+}
+
+.bottom{
+  width: 100%;
+}
+
+.btm3 img{
+  width: 20px;
+}
+
+.btm3{
+  font-size: 15px;
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  letter-spacing: -0.04em;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  color: #1A73e8;
+}
+
+/* Assignment Page */
+
+.submain {
+  width: 90%;
+  height: 60px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 1px solid #DBDCE0 !important;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 21%;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.left-part{
+  display: inline-flex;
+}
+
+.Image{
+  margin-top: 8px !important;
+  margin-left: 10px !important;
+}
+
+.section {
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 8px;
+  color: rgba(53, 54, 66, 1)!important;
+}
+
+.date{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
+  font-size: 12px;
+  padding-top: 1px;
+  margin-left:15px;
+  color: rgba(53, 54, 66, 1)!important;
+}
+
+.MoreImage{
+  margin-top: 15px;
+  margin-right: 10px;
+  float: left;
+  overflow: hidden;
+}
+
+.options {
+  border : 1px solid grey;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  margin-top: 4px;
+}
+
+.options a{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500 !important;
+  float: none;
+  color: black;
+  padding: 4px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.options a:hover {
+  background-color: #E8F0FE;
+}
+
+.MoreImage:hover .options{
+  display: block;
+}
+
+.options::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 10px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}

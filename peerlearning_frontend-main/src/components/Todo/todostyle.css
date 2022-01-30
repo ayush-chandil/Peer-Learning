@@ -1,0 +1,137 @@
+.list{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   margin-top:100px;
+   margin-left:42%;
+}
+
+.assigned1{
+   display: flex;
+   padding-top: 34px;
+   margin-left: 25%;
+}
+
+.assigned{
+   width: 55%;
+   height: 60px;
+   background-color: #ffffff;
+   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+   border: 1px solid #DBDCE0 !important;
+   display: flex;
+   margin-top: 10px;
+   margin-left: 26.2%;
+   cursor: pointer;
+   justify-content: space-between;
+}
+
+.left-side{
+   display: inline-flex;
+}
+ 
+.Image{
+   margin-top: 8px !important;
+   margin-left: 10px !important;
+}
+ 
+.sec{
+   margin-left: 15px;
+   font-family: 'Montserrat', sans-serif !important;
+   font-weight: 400;
+   font-size: 18px;
+   padding-top: 8px;
+   color: rgba(53, 54, 66, 1)!important;
+   margin-bottom: -15px !important;
+}
+ 
+.sub{
+   font-family: 'Montserrat', sans-serif !important;
+   font-weight: 500;
+   font-size: 12px;
+   padding-top: 1px;
+   margin-left:15px;
+   color: rgba(53, 54, 66, 1)!important;
+}
+
+#week1{
+   height: 22px;
+   font-family: 'Montserrat',sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   align-items: center;
+   color: #353642;
+   margin:150px 0px 0px 0px;
+   display: flex;
+}
+
+#week2{
+   height: 22px;
+   font-family: 'Montserrat',sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   color: #353642;
+   margin-top:50px;
+}
+
+#week3{
+   height: 22px;
+   font-family: 'Montserrat',sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   color: #353642;
+   margin:50px 0px 0px 0px;
+}
+
+#Arrow1{
+   margin-left: 640px;
+}
+
+#Arrow2{
+   margin-left: 670px;
+}
+
+.time{
+   margin-top: 15px;
+   margin-right: 10px;
+   float: left;
+   overflow: hidden;
+}
+
+#time{
+   display: flex;
+   flex-direction: row;
+   color: #C5221F;
+}
+
+#time1{
+   display: flex;
+   flex-direction: row;
+   color:rgba(30, 142, 62, 1);
+}
+
+#time2{
+   display: flex;
+   flex-direction: row;
+   color:#606368;
+}
+
+.menu_active{
+   color:rgba(26, 115, 232, 1) !important;
+   border-bottom:0.5px solid rgba(26, 115, 232, 1) !important;
+}
+
+.anchorlink{
+   color:#606368 !important;
+}
+
+

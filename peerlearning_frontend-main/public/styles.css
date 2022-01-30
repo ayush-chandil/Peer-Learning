@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+/* *************************** Login *********************************** */
+#login{
+  display: flex;
+  height: 500px;
+}
+
+.left{
+  top:0;
+  left:0;
+}
+
+.left img{
+  height: 100vh;
+}
+
+.right{
+  top:0;
+  right:0;
+}
+
+.right img{
+  height: 100vh;
+}
+
+.container1{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.col-2{
+  flex-basis: 60%;
+  min-width: 1008px;
+}
+
+.col-2 h1{
+  padding-top: -20px;
+  padding-left: 10px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 800;
+  font-size: 66px;
+  line-height: 70px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #353642;
+  text-align: center;
+}
+
+.col-2 h3{ 
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 5px;
+  line-height: 24px;
+  color: #353642;
+  text-align: center;
+}
+
+.SignInButton1 { 
+  padding-top: 10px;
+  width: 100%;
+  height: 56px;
+  text-align: center;
+}
+
+.SignInButton1 button{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 200 !important;
+  border: 1px solid #353642 !important;
+  border-radius: 80px !important;
+  width: 353px !important;
+  height: 56px !important;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 20px !important;
+  color: #353642 !important;
+}
+
+.SignInButton1 button div{
+  font-weight: 200 !important;
+  background-color: transparent !important;
+  padding-top : 6px !important;
+  padding-right: 2px !important;
+}
+
+.SignInButton1 button div img svg g{
+  width : 32px !important;
+  height : 32px !important;
+}
+
+.SignInButton1 button:hover{
+  background: linear-gradient(180deg, #00DDEB 0%, #00F4A5 100%) !important;
+  border: 1px solid #00edbd !important;
+}
+
+.col-2 img{
+  width: 50%;
+  margin-left: 225px;
+  margin-top: 25px !important;
+}
+
+a{
+  text-decoration: none !important;
+}
